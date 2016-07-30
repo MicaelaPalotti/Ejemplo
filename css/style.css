@@ -1,0 +1,99 @@
+p{font-family: Roboto, sans-serif;
+ font-weight: 300
+}
+
+
+nav {background-color: yellow; 
+	padding: 10px;
+	overflow: auto
+	}
+
+.contenedor {max-width: 900px;
+			margin:auto;
+			font-family: Roboto, sans-serif;
+			}
+
+nav .logo{max-width: 100px}
+
+nav ul.menu{float: right;
+			margin-top: 10px
+	       }
+
+nav ul.menu li{display: inline-block;
+				margin: 0 10px
+		      }
+
+header {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbff32+7,000000+100 */
+background: #fbff32; /* Old browsers */
+background: -moz-linear-gradient(top,  #fbff32 7%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fbff32 7%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fbff32 7%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbff32', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+;padding: 80px;
+	   }
+
+header h1, header h2{color: white;
+font-size: 50px;
+font-family: 'Roboto', sans-serif;
+font-weight: 700}
+
+header h2{font-size: 20px}
+
+.productos{padding: 80px 0}
+
+.productos h2{
+	font-family:'Roboto', sans-serif;;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center; 
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.productos article {width: 30%;
+					display: inline-block;
+					margin: 10px}
+
+.productos article h3{	font-family: Roboto, sans-serif;
+						margin: 10px 0;
+						font-size:20px;
+						
+						}
+
+.productos article img{width: 100%;}
+
+
+
+@media screen and (max-width:800px) and (min-width:701px){
+
+	nav{background-color: white;}
+	header h2{display: none;}
+}
+
+
+@media screen and (max-width: 500px){
+	
+	header h1, header h2{text-align: center;}
+}
+
+
+@media screen and (max-width:700px){
+	.productos article {width: 100%;
+					display: block;
+					max-width: 300px;
+					margin: 70px auto;
+					}
+
+	nav .logo{margin: auto;
+			display: block;
+			float: none;
+			width: 40px; height: 20px
+			}
+
+	nav ul.menu{float: none;
+				text-align: center;}
+
+	nav ul.menu li{	display: block;
+					}
+
+}
+
