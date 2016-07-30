@@ -1,0 +1,46 @@
+.contenedor{margin: 30px 0 0 30px}
+		
+.cuadradonaranja{width: 100px;
+				height: 100px;
+				background-color:orange;
+				float: left;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				}
+
+.cuadradoverde {width: 100px;
+				height: 100px;
+				background-color: green;
+				float: left;
+				margin-bottom: 10px;
+				}
+
+.cuadradoceleste{ width: 100px;
+				height: 100px;
+				background-color: blue;
+				clear: both; 
+				float: left;
+				margin-right: 10px;}
+
+.cuadradoamarillo {width: 100px;
+				height: 100px;
+				background-color: yellow;
+				float: left;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
